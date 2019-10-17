@@ -8,6 +8,7 @@ namespace BranchesAndLoops
         {
             new If().Run();
             new Loop().Run();
+            new Issue().Run();
         }
     }
 }
