@@ -11,6 +11,8 @@ namespace BranchesAndLoops
             code1();
             code2();
             code3();
+            code4();
+            code5();
         }
         private void code0()
         {
@@ -44,6 +46,25 @@ namespace BranchesAndLoops
                 Console.WriteLine($"foreach {i}");
             }
         }
-
+        private void code4()
+        {
+            int counter = 0;
+            while (true)
+            {
+                if (3 < counter) break;
+                Console.WriteLine($"Hello World! The counter is {counter}");
+                counter++;
+            }
+        }
+        private void code5()
+        {
+            int index = 0;
+            for (;;)
+            {
+                if (3 < index) break;
+                Console.WriteLine($"Hello World! The index is {index}");
+                index++;
+            }
+        }
     }
 }
